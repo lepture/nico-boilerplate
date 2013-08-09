@@ -1,0 +1,18 @@
+{
+  "site": {
+    "name": "My blog",
+    "url": "http://example.com"
+  },
+  "source": "content",
+  "output": "_site",
+  "theme": "_themes/one",
+  "writers": [
+    "nico.PostWriter",
+    "nico.PageWriter",
+    "nico.FileWriter",
+    "nico.StaticWriter",
+    "nico.ArchiveWriter",
+    "nico.FeedWriter"
+  ]
+  "perpage": 30
+}
