@@ -33,18 +33,4 @@ $ git branch blog
 $ git checkout blog
 ```
 
-And you need to modify your `Makefile`:
-
-```
-publish: build
-	@./ghp-import.py _site -p
-```
-
-to:
-
-```
-publish: build
-	@./ghp-import.py _site -b master -p
-```
-
 And you can use `make publish` to publish your blog to GitHub now.
