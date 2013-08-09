@@ -15,7 +15,7 @@ Next clone the one theme:
 
 ```
 $ cd blog
-$ git clone git://github.com/lepture/nico-one.git blog/_themes/one
+$ git clone git://github.com/lepture/nico-one.git _themes/one
 ```
 
 You can use any theme (or even write your own theme). Find more themes on:

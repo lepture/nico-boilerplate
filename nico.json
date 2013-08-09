@@ -6,6 +6,7 @@
   "source": "content",
   "output": "_site",
   "theme": "_themes/one",
+  "permalink": "{{directory}}/{{filename}}",
   "writers": [
     "nico.PostWriter",
     "nico.PageWriter",
@@ -13,6 +14,6 @@
     "nico.StaticWriter",
     "nico.ArchiveWriter",
     "nico.FeedWriter"
-  ]
+  ],
   "perpage": 30
 }
